@@ -1,6 +1,7 @@
 <template>
   <div>
     <el-button>btn</el-button>
+    <el-icon-edit/>
   </div>
 </template>
 
