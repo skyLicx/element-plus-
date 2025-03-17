@@ -1,13 +1,13 @@
 <template>
   <div>
-    <ChooseIcon title="选择图标" v-model:visible="visible">
+    <m-choose-icon title="选择图标" v-model:visible="visible">
       选择图标
-    </ChooseIcon>
+    </m-choose-icon>
   </div>
 </template>
 
 <script setup lang="ts">
-import ChooseIcon from '../../components/chooseIcon/src/index.vue'
+// import mChooseIcon from '../../components/chooseIcon/src/index.vue'
 import { ref } from 'vue'
 
 const visible = ref(false)
