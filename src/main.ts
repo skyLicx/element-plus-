@@ -8,11 +8,12 @@ import 'element-plus/dist/index.css'
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 import { toLine } from './utils'
 // import mUI from './components'
-
+import mUI from '../lib/mooc-element-components'
+import '../lib/mooc-element-components.css'
 const app = createApp(App)
 app.use(router)
 app.use(ElementPlus)
-// app.use(mUI)
+app.use(mUI)
 app.mount('#app')
 
 // 全局注册图标 牺牲一点性能
