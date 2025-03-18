@@ -1,0 +1,6 @@
+{
+    "name": "utils",
+    "main": "index.js",
+    "module": "index.esm.js",
+    "style": "style.css"
+  }
