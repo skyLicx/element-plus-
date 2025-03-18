@@ -1,29 +1,16 @@
 {
-  "name": "m-components",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc -b && vite build",
-    "preview": "vite preview",
-    "build:components": "node ./command/build.js",
-    "lib": "npm run build:components && copy package.json lib\\"
+  "name":"cx-element-components",
+  "version":"1.0.0",
+  "main":"mooc-element-components.umd.cjs",
+  "module":"mooc-element-components.js",
+  "types":"index.d.ts",
+  "author":{
+    "name":"cx"
   },
-  "dependencies": {
-    "@element-plus/icons-vue": "^2.3.1",
-    "element-plus": "^2.9.6",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.1",
-    "@vue/tsconfig": "^0.7.0",
-    "fs-extra": "^11.3.0",
-    "sass": "^1.85.1",
-    "sass-loader": "^16.0.5",
-    "typescript": "~5.7.2",
-    "vite": "^6.2.0",
-    "vue-tsc": "^2.2.4"
-  }
+  "keywords":[
+    "element-plus",
+    "ts",
+    "封装组件",
+    "二次封装"
+  ]
 }
